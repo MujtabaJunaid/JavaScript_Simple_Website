@@ -13,11 +13,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <h2>Beach Recommendations</h2>
         <div class="destination">
           <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/View_of_tropical_sand_beach_and_ocean.jpg" alt="Beach 1">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60" alt="Beach 1">
             <p>Beach Paradise</p>
           </div>
           <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Beach_ocean_water_sand_pier_waves.jpg" alt="Beach 2">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=60" alt="Beach 2">
             <p>Sunny Shore</p>
           </div>
         </div>
@@ -29,11 +29,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <h2>Temple Recommendations</h2>
         <div class="destination">
           <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Angkor_Wat.jpg" alt="Temple 1">
+            <img src="https://images.unsplash.com/photo-1561037404-61cd46aa6159?auto=format&fit=crop&w=800&q=60" alt="Temple 1">
             <p>Temple of Dawn</p>
           </div>
           <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Parthenon_at_sunset.jpg" alt="Temple 2">
+            <img src="https://images.unsplash.com/photo-1597733336794-12d6aa30901b?auto=format&fit=crop&w=800&q=60" alt="Temple 2">
             <p>Ancient Temple Ruins</p>
           </div>
         </div>
@@ -45,11 +45,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <h2>Country Recommendations</h2>
         <div class="destination">
           <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Switzerland_Alps.jpg" alt="Country 1">
+            <img src="https://images.unsplash.com/photo-1509475826633-fed577a2c71b?auto=format&fit=crop&w=800&q=60" alt="Country 1">
             <p>Switzerland</p>
           </div>
           <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/New_Zealand_Landscape.jpg" alt="Country 2">
+            <img src="https://images.unsplash.com/photo-1562028479-9a9cf1b5182b?auto=format&fit=crop&w=800&q=60" alt="Country 2">
             <p>New Zealand</p>
           </div>
         </div>
