@@ -29,12 +29,12 @@ document.addEventListener("DOMContentLoaded", function () {
         <h2>Temple Recommendations</h2>
         <div class="destination">
           <div>
-            <img src="https://www.poojn.in/wp-content/uploads/2025/03/Shiva-Temples-Cultural-Significance-and-Symbolism.jpeg.jpg" alt="Temple 1">
-            <p>Temple of Dawn</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Kedarnath_Temple_in_Kedarnath%2C_Uttarakhand%2C_India.jpg" alt="Temple 1">
+            <p>Kedarnath Temple</p>
           </div>
           <div>
-            <img src="https://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/67/2020/02/12013345/00008701-28965-original.jpg" alt="Temple 2">
-            <p>Ancient Temple Ruins</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Meenakshi_Temple_India_2007.jpg" alt="Temple 2">
+            <p>Meenakshi Temple</p>
           </div>
         </div>
       `;
