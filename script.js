@@ -13,11 +13,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <h2>Beach Recommendations</h2>
         <div class="destination">
           <div>
-            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60" alt="Beach 1">
+            <img src="https://as1.ftcdn.net/jpg/04/97/15/26/1000_F_497152642_F0AgZhKLS6OLnvV5zDrF9TU4SjDegMzH.webp" alt="Beach 1">
             <p>Beach Paradise</p>
           </div>
           <div>
-            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=60" alt="Beach 2">
+            <img src="https://as2.ftcdn.net/jpg/02/12/69/71/1000_F_212697193_XcTtIafuuIotlj2VzrdfQqW03BGt56TS.webp" alt="Beach 2">
             <p>Sunny Shore</p>
           </div>
         </div>
@@ -29,11 +29,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <h2>Temple Recommendations</h2>
         <div class="destination">
           <div>
-            <img src="https://images.unsplash.com/photo-1561037404-61cd46aa6159?auto=format&fit=crop&w=800&q=60" alt="Temple 1">
+            <img src="https://www.poojn.in/wp-content/uploads/2025/03/Shiva-Temples-Cultural-Significance-and-Symbolism.jpeg.jpg" alt="Temple 1">
             <p>Temple of Dawn</p>
           </div>
           <div>
-            <img src="https://images.unsplash.com/photo-1597733336794-12d6aa30901b?auto=format&fit=crop&w=800&q=60" alt="Temple 2">
+            <img src="https://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/67/2020/02/12013345/00008701-28965-original.jpg" alt="Temple 2">
             <p>Ancient Temple Ruins</p>
           </div>
         </div>
