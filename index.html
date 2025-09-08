@@ -12,6 +12,11 @@
       <li><a href="about.html">About Us</a></li>
       <li><a href="contact.html">Contact Us</a></li>
     </ul>
+    <form id="searchForm">
+      <input type="text" id="searchInput" placeholder="Search...">
+      <button type="submit" id="searchBtn">Search</button>
+      <button type="button" id="clearBtn">Clear</button>
+    </form>
   </nav>
 
   <header>
@@ -19,29 +24,7 @@
     <p>Discover your perfect travel destination with our personalized recommendations.</p>
   </header>
 
-  <section>
-    <h2>Beach Destinations</h2>
-    <div class="destination">
-      <img src="images/beach1.jpg" alt="Beach 1">
-      <img src="images/beach2.jpg" alt="Beach 2">
-    </div>
-  </section>
-
-  <section>
-    <h2>Temple Destinations</h2>
-    <div class="destination">
-      <img src="images/temple1.jpg" alt="Temple 1">
-      <img src="images/temple2.jpg" alt="Temple 2">
-    </div>
-  </section>
-
-  <section>
-    <h2>Country-Based Recommendations</h2>
-    <div class="destination">
-      <img src="images/country1.jpg" alt="Country 1">
-      <img src="images/country2.jpg" alt="Country 2">
-    </div>
-  </section>
+  <section id="results"></section>
 
   <script src="script.js"></script>
 </body>
