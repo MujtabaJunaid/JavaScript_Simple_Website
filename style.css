@@ -7,6 +7,8 @@ body {
 nav {
   background-color: #0077cc;
   padding: 10px;
+  display: flex;
+  align-items: center;
 }
 
 nav ul {
@@ -14,6 +16,7 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  flex: 1;
 }
 
 nav ul li {
@@ -24,6 +27,24 @@ nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+nav form {
+  display: flex;
+  align-items: center;
+}
+
+nav form input[type="text"] {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+nav form button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
 }
 
 header {
@@ -40,37 +61,11 @@ section {
   display: flex;
   gap: 10px;
   margin-top: 10px;
+  flex-wrap: wrap;
 }
 
 .destination img {
   width: 300px;
   height: 200px;
   object-fit: cover;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
-  margin-top: 20px;
-}
-
-form input,
-form textarea {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-}
-
-form button {
-  padding: 10px;
-  background-color: #0077cc;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-#confirmation {
-  margin-top: 10px;
-  color: green;
 }
