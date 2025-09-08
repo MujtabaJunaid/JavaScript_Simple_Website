@@ -1,16 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const form = document.getElementById("searchForm");
+  const searchBtn = document.getElementById("searchBtn");
+  const clearBtn = document.getElementById("clearBtn");
   const input = document.getElementById("searchInput");
   const results = document.getElementById("results");
-  const clearBtn = document.getElementById("clearBtn");
 
-  clearBtn.addEventListener("click", function () {
-    input.value = "";
-    results.innerHTML = "";
-  });
-
-  form.addEventListener("submit", function (e) {
-    e.preventDefault();
+  searchBtn.addEventListener("click", function () {
     const term = input.value.trim().toLowerCase();
     results.innerHTML = "";
 
@@ -65,5 +59,10 @@ document.addEventListener("DOMContentLoaded", function () {
     if (results.innerHTML === "") {
       results.innerHTML = "<p>No recommendations found. Try searching for 'beach', 'temple', or 'country'.</p>";
     }
+  });
+
+  clearBtn.addEventListener("click", function () {
+    input.value = "";
+    results.innerHTML = "";
   });
 });
